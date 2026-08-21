@@ -1,1 +1,2 @@
-# CP-Krishanu
+# DSA problem solutions 
+-by krishanu
