@@ -1,9 +1,0 @@
-class Solution:
-    def dailyTemperatures(self, T):
-        ans = [0]*len(T)
-        for i in range(len(T)):
-            for j in range(i+1, len(T)):
-                if T[j] > T[i]:
-                    ans[i] = j-i
-                    break
-        return ans
